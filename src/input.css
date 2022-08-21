@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    .active {
+        @apply overflow-visible max-h-[220px]
+    }
+}
